@@ -4,9 +4,9 @@ This is my solution to the **Movie Watchlist Project**, a dynamic web applicatio
 
 ## 🔗 **Live Demo**
 
-🌍 **Live Site URL:** [https://watchlistly.netlify.app/](#)
+🌍 **Live Site URL:** [[https://watchlistly.netlify.app](https://watchlistly.netlify.app)
 
-📂 **Solution Repository:** [[GitHub - asemasda/movie-watchlist](https://github.com/asemasda/movie-watchlist)](#)
+📂 **Solution Repository:** [[GitHub - asemasda/movie-watchlist](https://github.com/asemasda/movie-watchlist)]
 
 ## 🛠️ Built With
 
