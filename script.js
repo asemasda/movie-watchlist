@@ -73,14 +73,14 @@ async function searchMovie() {
     movieContainer.innerHTML = '<div class="spinner">Searching for movies...</div>';
 
     try {
-        const searchResponse = await fetch(`http://www.omdbapi.com/?s=${query}&apikey=8dffb9ae`);
+        const searchResponse = await fetch(`https://www.omdbapi.com/?s=${query}&apikey=8dffb9ae`);
         const searchData = await searchResponse.json();
 
         movieContainer.innerHTML = '';
 
         if (searchData.Response === "True") {
             const moviePromises = searchData.Search.map(movie =>
-                fetch(`http://www.omdbapi.com/?i=${movie.imdbID}&apikey=8dffb9ae`)
+                fetch(`https://www.omdbapi.com/?i=${movie.imdbID}&apikey=8dffb9ae`)
                     .then(response => response.json())
             );
             const moviesDetails = await Promise.all(moviePromises);
